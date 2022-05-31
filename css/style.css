@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-img {
+    width: 100vw;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #000;
+}
+
+nav {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+header img{
+    height: 90px;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+nav li {
+    margin: 0 15px;  
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FEA802;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+#nav-btn {
+    background-color: #0E3FA9;
+    border-radius: 25px;
+    padding: 13px;
+}
+
+
+
+.container-itens {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative; 
+}
+
+.carousel-texts {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    align-items: center;
+}
+
+#carousel-text {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 50%;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(0.25turn, #0E3FA9, #FEA802);
+    border-image-slice: 1;
+    width:90%;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+}
+
+#carousel-text span {
+    font-weight: 700;
+    display: block;
+}
+
+#carousel-text2 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#carousel-text2 span {
+    display: block;
+}
+
+#carousel-text2 small {
+    font-size: 0.8rem;
+}
+
+
+
+.carousel-texts button {
+    background-color: #0E3FA9;
+    border: none;
+    color: #FEA802;
+    padding: 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.carousel-texts button:hover {
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, #FEA802 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+    outline: 1px solid transparent;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: all 0.5s ease 0s !important;
+}
